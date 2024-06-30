@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type=text], input[type=password] {
+  width:96%;
+  padding: 12px 20px;
+  margin:15px 0;
+  display: inline-block;  
+}
+*{
+  margin: 0;
+  padding: 0;
+  }
+.header
+{
+min-height:101vh;
+width:100;
+background-image:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.8)),url("login1bg.jpg");
+background-position:center;
+background-size:cover;
+position:relative;
+
+}
+nav{
+  width: 100%;
+  padding: 59.5px 0;
+}
+nav .menu{
+  max-width:1250px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600;
+  margin-left: -40px;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 15px;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-width: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.1s;
+}
+.menu ul li a:hover
+{
+  background: #fff;
+  color: black;
+}
+.header
+{
+min-height: 90vh;
+background-color: #FFB6C1;
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 100px;
+  margin: 8px 0;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+span.psw {
+  float:right;
+  padding-top: 16px;
+}
+{
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.container {
+  padding:17px;
+  color: #fff;
+}
+
+
+
+</style>
+</head>
+<body>
+<section class="header"><br> <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">Login page</a>
+      </div>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Admin.html">Admin</a></li>
+        <li><a href="Registration1.html">Seller</a></li>
+        <li><a href="#">Buyer</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>       
+   
+  <div class="container"><br>
+  <font size="+2"><label><b>Username</b></label></font>
+ <input type="text" placeholder="Enter Username">
+</br><br>
+  <font size="+2">  <label><b>Password</b></label></font>
+    <input type="password" placeholder="Enter Password"></br>
+        
+<br>   <center> <button type="submit">Login</button></br></center>
+    <br><label>
+      <input type="checkbox" checked="check" name="remember"> Remember me
+    </label></center>
+  </div>
+
+  <div class="container" style="background-color:#">
+    <button type="button" class="cancelbtn">Cancel</button>
+<span class="psw"> <h3><a href="#"> Forget password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>

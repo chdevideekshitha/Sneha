@@ -1,0 +1,10 @@
+.header{
+
+
+min-height:100vh;
+width:100;
+background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.5)),url("registrationbg.jpg");
+background-position:center;
+background-size:cover;
+position:relative;
+}
